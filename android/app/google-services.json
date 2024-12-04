@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "934195979899",
+    "project_id": "video-chat-app-de78c",
+    "storage_bucket": "video-chat-app-de78c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934195979899:android:df186ae287a083b10564de",
+        "android_client_info": {
+          "package_name": "com.app.v"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa377swv7I7IDgyekY_s2PGCYkRbOJYWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934195979899:android:a1f9e3820f3a146c0564de",
+        "android_client_info": {
+          "package_name": "com.app.vid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa377swv7I7IDgyekY_s2PGCYkRbOJYWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934195979899:android:67cad3fd77cd6aa80564de",
+        "android_client_info": {
+          "package_name": "com.vid.video_chat_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa377swv7I7IDgyekY_s2PGCYkRbOJYWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
