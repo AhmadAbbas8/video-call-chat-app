@@ -35,7 +35,6 @@ dependencies:
   firebase_database: ^11.1.6
   cloud_firestore: ^5.5.0
   flutter_callkit_incoming_yoer: ^2.0.4+3
-  zego_uikit_prebuilt_call: ^4.16.14
 dev_dependencies:
   flutter_test:
     sdk: flutter
