@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:video_chat_app/core/constants.dart';
+import 'package:video_chat_app/core/extensions/ex_context.dart';
 import 'package:video_chat_app/core/extensions/ex_num.dart';
 import 'package:video_chat_app/features/home_feature/data/models/user_model.dart';
 import 'package:zego_uikit_prebuilt_call/zego_uikit_prebuilt_call.dart';
@@ -21,19 +22,63 @@ class CustomChatItem extends StatelessWidget {
             backgroundImage: NetworkImage(user.image),
             radius: 25,
           ),
-          trailing: ZegoSendCallInvitationButton(
-            isVideoCall: true,
-            //You need to use the resourceID that you created in the subsequent steps.
-            //Please continue reading this document.
-            resourceID: AppConstants.resourceID,
-            invitees: [
-              ZegoUIKitUser(
-                id: user.uid,
-                name: user.email,
+          trailing: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              ZegoSendCallInvitationButton(
+                isVideoCall: false,
+                resourceID: AppConstants.resourceID,
+                icon: ButtonIcon(
+                  icon: Icon(Icons.call),
+                  backgroundColor: Colors.green,
+                ),
+                invitees: [
+                  ZegoUIKitUser(
+                    id: user.uid,
+                    name: user.email,
+                  ),
+                ],
+                buttonSize: Size(30, 30),
+                iconSize: Size(30, 30),
+                onPressed: (code, message, p2) {
+                  print('-----------------------------------------');
+                  if (message.isNotEmpty) {
+                    var splitMessage = message.split(',')[1].split(':')[1];
+                    context.showSnackBar(SnackBar(content: Text(splitMessage)));
+                  }
+                },
+                borderRadius: 10,
+                notificationMessage: 'Call from ${user.name}',
+                notificationTitle: 'Video Call',
+              ),
+              10.horizontalSpace,
+              ZegoSendCallInvitationButton(
+                isVideoCall: true,
+                resourceID: AppConstants.resourceID,
+                icon: ButtonIcon(
+                  icon: Icon(Icons.video_call),
+                  backgroundColor: Colors.green,
+                ),
+                invitees: [
+                  ZegoUIKitUser(
+                    id: user.uid,
+                    name: user.email,
+                  ),
+                ],
+                buttonSize: Size(30, 30),
+                iconSize: Size(30, 30),
+                onPressed: (code, message, p2) {
+                  print('-----------------------------------------');
+                  if (message.isNotEmpty) {
+                    var splitMessage = message.split(',')[1].split(':')[1];
+                    context.showSnackBar(SnackBar(content: Text(splitMessage)));
+                  }
+                },
+                borderRadius: 10,
+                notificationMessage: 'Call from ${user.name}',
+                notificationTitle: 'Video Call',
               ),
             ],
-            iconSize: Size(50,50),
-
           ),
           subtitle: Row(
             children: [
