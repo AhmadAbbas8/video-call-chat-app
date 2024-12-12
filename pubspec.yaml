@@ -36,6 +36,8 @@ dependencies:
   cloud_firestore: ^5.5.0
   flutter_callkit_incoming_yoer: ^2.0.4+3
   zego_uikit_prebuilt_call: ^4.16.14
+  zego_uikit_signaling_plugin: ^2.8.7
+  firebase_messaging: ^15.1.6
 dev_dependencies:
   flutter_test:
     sdk: flutter

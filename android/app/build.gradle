@@ -10,7 +10,7 @@ plugins {
 
 android {
     namespace = "com.vid.video_chat_app"
-    compileSdk = flutter.compileSdkVersion
+    compileSdk = 34
     ndkVersion = flutter.ndkVersion
 
     compileOptions {
@@ -45,4 +45,7 @@ android {
 
 flutter {
     source = "../.."
+}
+dependencies {
+    implementation 'com.google.firebase:firebase-messaging:21.1.0'
 }
