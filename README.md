@@ -15,14 +15,14 @@ A Flutter-based video and call application that enables users to communicate thr
 ## 🖼 Screenshots
 
 <p float="left">
-  <img src="https://github.com/user-attachments/assets/9be3b754-ce8d-48a6-b98d-50fca78a8c3b" width="300" />
-  <img src="https://github.com/user-attachments/assets/80600473-840c-4992-9769-1b5df81d3c6a" width="300" />
-  <img src="https://github.com/user-attachments/assets/1f048afa-0bc3-47a3-a939-a646a73ae8f1" width="300" />
+  <img src="https://github.com/user-attachments/assets/9be3b754-ce8d-48a6-b98d-50fca78a8c3b" width="200" />
+  <img src="https://github.com/user-attachments/assets/80600473-840c-4992-9769-1b5df81d3c6a" width="200" />
+  <img src="https://github.com/user-attachments/assets/1f048afa-0bc3-47a3-a939-a646a73ae8f1" width="200" />
 </p>
 <p float="left">
- <img src="https://github.com/user-attachments/assets/c0db2876-26ab-49ab-b4ae-87791adb9749" width="300" />
-  <img src="https://github.com/user-attachments/assets/bf3fc207-c7a4-414f-b58c-9b9a02e0905e" width="300" />
-  <img src="https://github.com/user-attachments/assets/5045f4e6-b70a-4995-88b1-106c471d74b9" width="300" />
+ <img src="https://github.com/user-attachments/assets/c0db2876-26ab-49ab-b4ae-87791adb9749" width="200" />
+  <img src="https://github.com/user-attachments/assets/bf3fc207-c7a4-414f-b58c-9b9a02e0905e" width="200" />
+  <img src="https://github.com/user-attachments/assets/5045f4e6-b70a-4995-88b1-106c471d74b9" width="200" />
 </p>
 
 ## 🛠 Tech Stack
